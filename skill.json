@@ -1,0 +1,52 @@
+{
+  "name": "flash-sale-optimizer-skill",
+  "version": "1.0.0",
+  "description": "Optimize flash sale timing, discount depth, inventory allocation, and urgency messaging to maximize revenue during limited-time events.",
+  "author": "alphaparkinc",
+  "category": "merchandising",
+  "tags": [
+    "flash-sale",
+    "promotions",
+    "urgency",
+    "pricing",
+    "inventory"
+  ],
+  "inputs": {
+    "products": {
+      "type": "array",
+      "description": "Products to include: [{name, regular_price, cost, current_stock}]."
+    },
+    "sale_duration_hours": {
+      "type": "integer",
+      "description": "Duration of the flash sale in hours."
+    },
+    "target_revenue_usd": {
+      "type": "number",
+      "description": "Target revenue for the sale event."
+    },
+    "audience_size": {
+      "type": "integer",
+      "description": "Estimated reachable audience size."
+    }
+  },
+  "outputs": {
+    "sale_plan": {
+      "type": "array",
+      "description": "Per-product sale config with discount, sale price, and inventory cap."
+    },
+    "timing_recommendation": {
+      "type": "object",
+      "description": "Best day/time to run the sale."
+    },
+    "urgency_messages": {
+      "type": "array",
+      "description": "Countdown and scarcity copy variants."
+    },
+    "revenue_projection": {
+      "type": "object",
+      "description": "Projected revenue and units sold."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
