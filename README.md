@@ -1,4 +1,4 @@
-# flash-sale-optimizer-skill
+# genpark-flash-sale-optimizer-skill
 
 > **GenPark AI Agent Skill** -- Optimize flash sale timing, discount depth, inventory allocation, and urgency messaging.
 
