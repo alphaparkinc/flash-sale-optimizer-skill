@@ -1,8 +1,8 @@
 {
   "name": "flash-sale-optimizer-skill",
   "version": "1.0.0",
-  "description": "Optimize flash sale timing, discount depth, inventory allocation, and urgency messaging to maximize revenue during limited-time events.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Optimize flash sale timing, discount depth, inventory allocation, and urgency messaging to maximize revenue during limited-time events.",
+  "author": "genpark",
   "category": "merchandising",
   "tags": [
     "flash-sale",
